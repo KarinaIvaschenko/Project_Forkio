@@ -4,6 +4,7 @@ dist/
 *.log
 .gitkeep
 *.gitkeep
+.idea
 
 # Created by https://www.toptal.com/developers/gitignore/api/macos,windows,linux,jetbrains+all,vscode
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,windows,linux,jetbrains+all,vscode
