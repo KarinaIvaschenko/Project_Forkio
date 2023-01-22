@@ -1,0 +1,35 @@
+.intro{
+  background-image: url("../img/intro-bgd.png");
+  background-size: cover;
+  padding-top: 183px;
+  padding-bottom: 459px;
+  text-align: center;
+}
+.intro__title{
+  margin: 0;
+  font-weight: 700;
+  font-size: 82px;
+  line-height: 82px;
+  color: $main-color-light;
+}
+.intro__text{
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+  color: $main-color-purple-light;
+  margin-top: 19px;
+  margin-bottom: 19px;
+}
+.intro__description{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: $main-color-gray;
+  margin: 0;
+}
+.intro__order-button{
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 22px;
+  color: $main-color-purple-light;
+}
