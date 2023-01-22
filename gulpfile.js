@@ -65,7 +65,7 @@ function watcher() {
     watch('./src/scss/**/*.scss', styles);
     watch("./src/**/*.html").on("change", html);
     watch("./src/js/*.js").on("change", series(scripts, bsServer.reload));
-    watch("./src/img/**/*.{jpg,jpeg,png,svg,webp}").on("change", series(images, bsServer.reload))
+    watch("./src/img/**/*.{jpg,jpeg,png,svg,webp}").on("change", images)
 }
  function clear(){
      return src('./dist/',{"allowEmpty": true})
