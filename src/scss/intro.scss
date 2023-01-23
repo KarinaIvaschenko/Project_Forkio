@@ -4,6 +4,7 @@
   padding-top: 183px;
   padding-bottom: 459px;
   text-align: center;
+  position: relative;
 }
 .intro__title{
   margin: 0;
@@ -27,9 +28,30 @@
   color: $main-color-gray;
   margin: 0;
 }
+.intro__order{
+  position: absolute;
+  top: 96%;
+left: 0;
+  right: 0;
+}
 .intro__order-button{
   font-weight: 700;
   font-size: 21px;
   line-height: 22px;
-  color: $main-color-purple-light;
+  color: $main-color-light;
+  background: $main-color-purple-light;
+  border-radius: 40px;
+  padding: 23px 61px;
+  margin-bottom: 19px;
+  border: 1px solid $main-color-purple-light;
+  &:hover{
+    color: $main-color-purple-light;
+    background-color: $main-color-light;
+  }
+}
+.intro__order-text{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  color: $main-color-gray;
 }
