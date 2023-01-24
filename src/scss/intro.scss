@@ -1,4 +1,4 @@
-.intro{
+.intro {
   background-image: url("../img/intro-bgd.png");
   background-size: cover;
   background-position: center;
@@ -6,36 +6,57 @@
   padding-bottom: 459px;
   text-align: center;
   position: relative;
+  @media (max-width: 992px) {
+    padding-top: 187px;
+    padding-bottom: 472px;
+  }
 }
-.intro__title{
+
+.intro__title {
   margin: 0;
   font-weight: 700;
   font-size: 82px;
   line-height: 82px;
   color: $main-color-light;
+  @media (max-width: 992px) {
+    font-size: 72px;
+    line-height: 72px;
+  }
 }
-.intro__text{
+
+.intro__text {
   font-weight: 400;
   font-size: 30px;
   line-height: 30px;
   color: $main-color-purple-light;
   margin-top: 19px;
   margin-bottom: 19px;
+  @media (max-width: 992px){
+    font-size: 24px;
+    line-height: 24px;
+  }
 }
-.intro__description{
+
+.intro__description {
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
   color: $main-color-gray;
   margin: 0;
+  @media (max-width: 992px){
+    font-size: 14px;
+    line-height: 14px;
+  }
 }
-.intro__order{
+
+.intro__order {
   position: absolute;
   top: 96%;
-left: 0;
+  left: 0;
   right: 0;
 }
-.intro__order-button{
+
+.intro__order-button {
   font-weight: 700;
   font-size: 21px;
   line-height: 22px;
@@ -45,12 +66,16 @@ left: 0;
   padding: 23px 61px;
   margin-bottom: 19px;
   border: 1px solid $main-color-purple-light;
-  &:hover{
+  @media (max-width: 992px){
+    line-height: 23px;
+  }
+  &:hover {
     color: $main-color-purple-light;
     background-color: $main-color-light;
   }
 }
-.intro__order-text{
+
+.intro__order-text {
   font-weight: 400;
   font-size: 14px;
   line-height: 15px;
