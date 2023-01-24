@@ -1,110 +1,182 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Document</title>
-        <link rel="stylesheet" href="./dist/css/styles.min.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&family=Montserrat:wght@400;700&display=swap"
-        rel="stylesheet">
-    </head>
-    
-    <body>
-        <header class="page-header">
-            <div class="container">
-                <nav class="page-header__nav navigation"> <a class="logo" href="#">
-                <img class="logo__image" src="./dist/img/logo1.png" alt="" width="43" height="41">
-                <img class="logo__image-color" src="./dist/img/logo-purp.png" alt="" width="43" height="41">
-                ForkIO
-            </a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./dist/css/styles.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-                    <ul class="navigation__list">
-                        <li class="navigation__item"><a class="navigation__link" href="#">Overview</a>
+  <body>
+    <header class="page-header">
+      <div class="container">
+        <nav class="page-header__nav navigation">
+          <a class="logo" href="#">
+            <img
+              class="logo__image"
+              src="./dist/img/logo1.png"
+              alt=""
+              width="43"
+              height="41"
+            />
+            <img
+              class="logo__image-color"
+              src="./dist/img/logo-purp.png"
+              alt=""
+              width="43"
+              height="41"
+            />
+            ForkIO
+          </a>
 
-                        </li>
-                        <li class="navigation__item"><a class="navigation__link" href="#">About Fork</a>
+          <ul class="navigation__list">
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">Overview</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">About Fork</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">Buying Options</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">Support</a>
+            </li>
+          </ul>
+          <button class="navigation__btn">Buy Now</button>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="intro">
+        <div class="container">
+          <h1 class="intro__title">Fork App</h1>
 
-                        </li>
-                        <li class="navigation__item"><a class="navigation__link" href="#">Buying Options</a>
+          <p class="intro__text">
+            A real gamechanger in the world of web development
+          </p>
+          <p class="intro__description">v. 2.8 For Mac and Windows</p>
+          <div class="intro__order">
+            <button class="intro__order-button">Download For Free Now</button>
+            <p class="intro__order-text">Unlimited 30-Days Trial Period</p>
+          </div>
+        </div>
+      </section>
+      <section class="reviews">
+        <div class="container">
+          <h2 class="reviews__title">People Are Talking About Fork</h2>
 
-                        </li>
-                        <li class="navigation__item"><a class="navigation__link" href="#">Support</a>
-
-                        </li>
-                    </ul>
-                    <button class="navigation__btn">Buy Now</button>
-                </nav>
-            </div>
-        </header>
-        <main>
-            <section class="intro">
-                <div class="container">
-                     <h1 class="intro__title">Fork App</h1>
-
-                    <p class="intro__text">A real gamechanger in the world of web development</p>
-                    <p class="intro__description">v. 2.8 For Mac and Windows</p>
-                    <div class="intro__order">
-                        <button class="intro__order-button">Download For Free Now</button>
-                        <p class="intro__order-text">Unlimited 30-Days Trial Period</p>
-                    </div>
-                </div>
-            </section>
-            <section class="reviews">
-                <div class="container">
-                     <h2 class="reviews__title">People Are Talking About Fork</h2>
-
-                    <ul class="reviews__list">
-                        <li class="reviews__item">
-                            <img class="reviews__img" src="./dist/img/reviews-logo1.png" alt="" class="reviews__image"
-                            width="165" height="43">
-                            <p class="reviews__text">Sed vestibulum scelerisque urna, eu finibus leo facilisis sit amet. Proin
-                                id dignissim magna. Sed varius urna et pulvinar venenatis.</p>
-                        </li>
-                        <li class="reviews__item">
-                            <img class="reviews__img" src="./dist/img/reviews-logo2.png" alt="" class="reviews__image"
-                            width="148" height="50">
-                            <p class="reviews__text">Donec euismod dolor ut ultricies consequat. Vivamus urna ipsum, rhoncus
-                                molestie neque ac, mollis eleifend nibh.</p>
-                        </li>
-                        <li class="reviews__item">
-                            <img class="reviews__img" src="./dist/img/reviews-logo3.png" alt="" class="reviews__image"
-                            width="64" height="64">
-                            <p class="reviews__text">In efficitur in velit et tempus. Duis nec odio dapibus, suscipit erat
-                                fringilla, imperdiet nibh. Morbi tempus auctor felis ac vehicula.</p>
-                        </li>
-                        <li class="reviews__item">
-                            <img class="reviews__img" src="./dist/img/reviews-logo4.png" alt="" class="reviews__image"
-                            width="225" height="24">
-                            <p class="reviews__text">Sed vestibulum scelerisque urna, eu finibus leo facilisis sit amet. Proin
-                                id dignissim magna. Sed varius urna et pulvinar venenatis.</p>
-                        </li>
-                        <li class="reviews__item">
-                            <img class="reviews__img" src="./dist/img/reviews-logo5.png" alt="" class="reviews__image"
-                            width="166" height="34">
-                            <p class="reviews__text">Praesent ut eros tristique, malesuada lectus vel, lobortis massa. Nulla
-                                faucibus lorem id arcu consequat faucibus.</p>
-                        </li>
-                        <li class="reviews__item">
-                            <img class="reviews__img" src="./dist/img/reviews-logo6.png" alt="" class="reviews__image"
-                            width="108" height="34">
-                            <p class="reviews__text">Fusce pharetra erat id odio blandit, nec  pharetra eros venenatis. Pellentesque
-                                porttitor cursus massa et vestibulum.</p>
-                        </li>
-                    </ul>
-                    <div class="size-description">
-                        <p class="reviews__description">Duis lobortis arcu sed arcu tincidunt feugiat. Nulla nisi mauris, facilisis
-                            vitae aliquet id, imperdiet quis nibh. Donec eget elit eu libero tincidunt
-                            consequat nec elementum orci. Cum sociis natoque penatibus et magnis dis
-                            parturient montes, nascetur ridiculus mus.</p>
-                    </div>
-                </div>
-            </section>
-        </main>
-        <script src="./dist/js/scripts.min.js"></script>
-    </body>
-
+          <ul class="reviews__list">
+            <li class="reviews__item">
+              <img
+                class="reviews__img"
+                src="./dist/img/reviews-logo1.png"
+                alt=""
+                class="reviews__image"
+                width="165"
+                height="43"
+              />
+              <p class="reviews__text">
+                Sed vestibulum scelerisque urna, eu finibus leo facilisis sit
+                amet. Proin id dignissim magna. Sed varius urna et pulvinar
+                venenatis.
+              </p>
+            </li>
+            <li class="reviews__item">
+              <img
+                class="reviews__img"
+                src="./dist/img/reviews-logo2.png"
+                alt=""
+                class="reviews__image"
+                width="148"
+                height="50"
+              />
+              <p class="reviews__text">
+                Donec euismod dolor ut ultricies consequat. Vivamus urna ipsum,
+                rhoncus molestie neque ac, mollis eleifend nibh.
+              </p>
+            </li>
+            <li class="reviews__item">
+              <img
+                class="reviews__img"
+                src="./dist/img/reviews-logo3.png"
+                alt=""
+                class="reviews__image"
+                width="64"
+                height="64"
+              />
+              <p class="reviews__text">
+                In efficitur in velit et tempus. Duis nec odio dapibus, suscipit
+                erat fringilla, imperdiet nibh. Morbi tempus auctor felis ac
+                vehicula.
+              </p>
+            </li>
+            <li class="reviews__item">
+              <img
+                class="reviews__img"
+                src="./dist/img/reviews-logo4.png"
+                alt=""
+                class="reviews__image"
+                width="225"
+                height="24"
+              />
+              <p class="reviews__text">
+                Sed vestibulum scelerisque urna, eu finibus leo facilisis sit
+                amet. Proin id dignissim magna. Sed varius urna et pulvinar
+                venenatis.
+              </p>
+            </li>
+            <li class="reviews__item">
+              <img
+                class="reviews__img"
+                src="./dist/img/reviews-logo5.png"
+                alt=""
+                class="reviews__image"
+                width="166"
+                height="34"
+              />
+              <p class="reviews__text">
+                Praesent ut eros tristique, malesuada lectus vel, lobortis
+                massa. Nulla faucibus lorem id arcu consequat faucibus.
+              </p>
+            </li>
+            <li class="reviews__item">
+              <img
+                class="reviews__img"
+                src="./dist/img/reviews-logo6.png"
+                alt=""
+                class="reviews__image"
+                width="108"
+                height="34"
+              />
+              <p class="reviews__text">
+                Fusce pharetra erat id odio blandit, nec pharetra eros
+                venenatis. Pellentesque porttitor cursus massa et vestibulum.
+              </p>
+            </li>
+          </ul>
+          <div class="size-description">
+            <p class="reviews__description">
+              Duis lobortis arcu sed arcu tincidunt feugiat. Nulla nisi mauris,
+              facilisis vitae aliquet id, imperdiet quis nibh. Donec eget elit
+              eu libero tincidunt consequat nec elementum orci. Cum sociis
+              natoque penatibus et magnis dis parturient montes, nascetur
+              ridiculus mus.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./dist/js/scripts.min.js"></script>
+  </body>
 </html>
