@@ -1,101 +1,61 @@
 .pricing {
   background: url(../img/background-pricing.png) center/cover no-repeat;
   height: 1000px;
+  text-align: center;
 }
 .pricing__title {
   font-weight: 700;
   font-size: 48px;
   line-height: 50px;
-  padding-top: 80px;
-  text-align: center;
-  color: #ffffff;
+  margin: 0;
+  color: $main-color-light;
 }
-.pricing__price-list {
+.pricing__list {
   display: flex;
   justify-content: center;
+  padding-left: 0;
   gap: 15px;
-  margin-top: 100px;
-  align-items: center;
 }
-.pricing__price-item {
-  width: 257px;
-  height: 457px;
-  text-align: center;
-  background: rgba(255, 255, 255, 0.11);
+.pricing__item {
+  border: 1px solid yellow;
 }
-.pricing__price-item-title {
+.pricing__item-title {
   font-weight: 400;
   font-size: 24px;
   line-height: 24px;
   text-transform: uppercase;
-  color: #ffffff;
-
-  padding-top: 36px;
-  padding-bottom: 36px;
-  margin: 0;
-  background: rgba(255, 255, 255, 0.06);
+  color: $main-color-light;
 }
-.pricing__price-item-price {
+.pricing__item-price {
   font-weight: 400;
   font-size: 60px;
   line-height: 90px;
   text-transform: uppercase;
-  color: #ffffff;
-  margin-top: 20px;
-  margin-bottom: 0;
+  color: $main-color-light;
 }
-.pricing__price-item-mounth {
+.pricing__item-month {
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
   text-transform: uppercase;
-  color: #ffffff;
-  margin-top: 20px;
-  position: relative;
-
-  &::after {
-    content: "";
-    display: block;
-    width: 60px;
-    height: 5px;
-    background: #8d81ac;
-    position: absolute;
-    left: 38%;
-    bottom: -40px;
-  }
+  color: $main-color-light;
 }
-.pricing__price-item-license {
+.pricing__item-licence {
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
-  color: #ffffff;
-  margin-top: 80px;
+  text-transform: uppercase;
+  color: $main-color-light;
 }
-.pricing__price-item-link {
+.pricing__item-link {
   font-weight: 400;
   font-size: 15px;
   line-height: 15px;
   text-transform: uppercase;
-  color: #ffffff;
+  color: $main-color-light;
 
-  border-radius: 25px;
-  padding: 15px 25px;
-  background: rgba(255, 255, 255, 0.15);
+  padding: 15px 37px;
+  border-radius: 30px;
+  border: 1px solid gold;
+  margin-bottom: 10px;
 }
-.recommended {
-  width: 299px;
-  height: 560px;
-}
-// .btn {
-//   font-weight: 400;
-//   font-size: 15px;
-//   line-height: 15px;
-//   text-transform: uppercase;
-//   color: #ffffff;
-//   margin-top: 10px;
-//   border-radius: 25px;
-//   padding: 15px 25px;
-//   background: rgba(255, 255, 255, 0.15);
-//   border: none;
-//   cursor: pointer;
-// }
