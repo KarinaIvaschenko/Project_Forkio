@@ -21,20 +21,20 @@
 align-items: center;
   &:hover{
     color: $main-color-light;
+    .logo__image{
+      display: block;
+    }
+    .logo__image-color{
+      display: none;
+    }
   }
 }
 .logo__image{
   display: none;
   margin-right: 17px;
-  &:hover{
-    display: block;
-  }
 }
 .logo__image-color{
   margin-right: 17px;
-  &:hover{
-display: none;
-  }
 }
 .navigation__list{
   display: flex;
