@@ -13,6 +13,7 @@
 }
 .page-header__nav{
   display: flex;
+  flex-wrap: wrap;
 }
 .logo{
   font-weight: 700;
@@ -47,6 +48,12 @@ align-items: center;
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
+  @media (max-width: 992px){
+    order: 1;
+    width: 100%;
+    justify-content: center;
+    margin-top: 23px;
+  }
 }
 .navigation__link{
   color: $main-color-purple-light;
@@ -59,7 +66,7 @@ color: $main-color-light;
 }
 .navigation__btn{
   color: $main-color-light;
-  margin-left: 49px;
+  //margin-left: 49px;
   background-color: $main-color-purple-light;
   border: 1px solid #8D81AC;
   border-radius: 40px;
@@ -67,6 +74,7 @@ color: $main-color-light;
   font-weight: 700;
   font-size: 16px;
   line-height: 17px;
+  margin-left: auto;
   &:hover{
     color: $main-color-purple-light;
     background-color: $main-color-light;
