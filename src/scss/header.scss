@@ -54,6 +54,9 @@ align-items: center;
     justify-content: center;
     margin-top: 23px;
   }
+  @media (max-width: 670px) {
+    column-gap: 27px;
+  }
 }
 .navigation__link{
   color: $main-color-purple-light;
