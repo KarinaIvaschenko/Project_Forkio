@@ -1,0 +1,36 @@
+.features {
+  background: url(./dist/img/features/background-features.png);
+}
+.features__container {
+  display: flex;
+}
+.features__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 50px;
+  color: $main-color-purple-light;
+  order: 1;
+
+  &::before {
+    content: "<";
+  }
+  &::after {
+    content: ">";
+  }
+}
+.features__list {
+  //   width: 47%;
+}
+.features__item {
+}
+.features__item-img {
+}
+.features__item-box {
+}
+.features__item-box-title {
+}
+.features__item-box-info {
+}
+.features__footer {
+  order: 2;
+}
