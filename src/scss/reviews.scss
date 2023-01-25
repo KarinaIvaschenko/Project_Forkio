@@ -33,12 +33,19 @@ color: $main-color-light;
     row-gap: 65px;
     column-gap: 73px;
   }
+  @media (max-width: 670px) {
+    row-gap: 45px;
+    column-gap: 57px;
+  }
 }
 .reviews__img{
   margin: 0 auto;
   @media (max-width: 992px){
     height: 50px;
     margin-bottom: 30px;
+  }
+  @media (max-width: 670px) {
+    height: 40px;
   }
 }
 .reviews__text{
