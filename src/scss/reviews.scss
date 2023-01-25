@@ -5,8 +5,14 @@
   padding-bottom: 29px;
   text-align: center;
 color: $main-color-light;
+<<<<<<< HEAD
   @media (max-width: 992px) {
     padding-top: 86px;
+=======
+  @media (max-width: 992px){
+    padding-top: 86px;
+    padding-bottom: 20px;
+>>>>>>> reviews
   }
 }
 .reviews__title{
@@ -14,8 +20,15 @@ color: $main-color-light;
   font-size: 48px;
   line-height: 50px;
   margin-bottom: 82px;
+<<<<<<< HEAD
   @media (max-width: 992px) {
     margin-bottom: 87px;
+=======
+  @media (max-width: 992px){
+    margin-bottom: 88px;
+    font-size: 42px;
+    line-height: 44px;
+>>>>>>> reviews
   }
 }
 .reviews__list{
@@ -25,14 +38,25 @@ color: $main-color-light;
   column-gap: 93px;
   padding-left: 0;
   margin: 0;
+<<<<<<< HEAD
   @media (max-width: 992px) {
     grid-template-columns: 1fr 1fr;
     row-gap: 60px;
     column-gap: 70px;
+=======
+  @media (max-width: 992px){
+    grid-template-columns: 1fr 1fr;
+    row-gap: 65px;
+    column-gap: 73px;
+>>>>>>> reviews
   }
 }
 .reviews__img{
   margin: 0 auto;
+  @media (max-width: 992px){
+    height: 50px;
+    margin-bottom: 30px;
+  }
 }
 .reviews__text{
   font-weight: 700;
@@ -56,6 +80,7 @@ color: $main-color-light;
   line-height: 21px;
   color: $main-color-purple-lighter;
   font-family: 'Lato', sans-serif;
+  position: relative;
   &::after{
     content: "";
     width: 780px;
@@ -65,9 +90,15 @@ color: $main-color-light;
     left: 50%;
     transform: translateX(-50%);
     bottom: -18px;
+<<<<<<< HEAD
     @media (max-width: 992px) {
       width: 555px;
     }
+=======
+  }
+  @media (max-width: 992px){
+    margin-top: 68px;
+>>>>>>> reviews
   }
 }
 
