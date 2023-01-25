@@ -1,16 +1,12 @@
 .pricing {
   background: url(../img/background-pricing.png) center/cover no-repeat;
   height: 1000px;
-<<<<<<< HEAD
   text-align: center;
-=======
->>>>>>> 27e1e7460632a1d3b2a5288d20590b783a41057e
 }
 .pricing__title {
   font-weight: 700;
   font-size: 48px;
   line-height: 50px;
-<<<<<<< HEAD
   margin: 0;
   color: $main-color-light;
 }
@@ -24,64 +20,24 @@
   border: 1px solid yellow;
 }
 .pricing__item-title {
-=======
-  padding-top: 80px;
-  text-align: center;
-  color: #ffffff;
-}
-.pricing__price-list {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-  margin-top: 100px;
-  align-items: center;
-}
-.pricing__price-item {
-  width: 257px;
-  height: 457px;
-  text-align: center;
-  background: rgba(255, 255, 255, 0.11);
-}
-.pricing__price-item-title {
->>>>>>> 27e1e7460632a1d3b2a5288d20590b783a41057e
   font-weight: 400;
   font-size: 24px;
   line-height: 24px;
   text-transform: uppercase;
-<<<<<<< HEAD
   color: $main-color-light;
 }
 .pricing__item-price {
-=======
-  color: #ffffff;
-
-  padding-top: 36px;
-  padding-bottom: 36px;
-  margin: 0;
-  background: rgba(255, 255, 255, 0.06);
-}
-.pricing__price-item-price {
->>>>>>> 27e1e7460632a1d3b2a5288d20590b783a41057e
   font-weight: 400;
   font-size: 60px;
   line-height: 90px;
   text-transform: uppercase;
-<<<<<<< HEAD
   color: $main-color-light;
 }
 .pricing__item-month {
-=======
-  color: #ffffff;
-  margin-top: 20px;
-  margin-bottom: 0;
-}
-.pricing__price-item-mounth {
->>>>>>> 27e1e7460632a1d3b2a5288d20590b783a41057e
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
   text-transform: uppercase;
-<<<<<<< HEAD
   color: $main-color-light;
 }
 .pricing__item-licence {
@@ -92,36 +48,10 @@
   color: $main-color-light;
 }
 .pricing__item-link {
-=======
-  color: #ffffff;
-  margin-top: 20px;
-  position: relative;
-
-  &::after {
-    content: "";
-    display: block;
-    width: 60px;
-    height: 5px;
-    background: #8d81ac;
-    position: absolute;
-    left: 38%;
-    bottom: -40px;
-  }
-}
-.pricing__price-item-license {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 18px;
-  color: #ffffff;
-  margin-top: 80px;
-}
-.pricing__price-item-link {
->>>>>>> 27e1e7460632a1d3b2a5288d20590b783a41057e
   font-weight: 400;
   font-size: 15px;
   line-height: 15px;
   text-transform: uppercase;
-<<<<<<< HEAD
   color: $main-color-light;
 
   padding: 15px 37px;
@@ -129,28 +59,3 @@
   border: 1px solid gold;
   margin-bottom: 10px;
 }
-=======
-  color: #ffffff;
-
-  border-radius: 25px;
-  padding: 15px 25px;
-  background: rgba(255, 255, 255, 0.15);
-}
-.recommended {
-  width: 299px;
-  height: 560px;
-}
-// .btn {
-//   font-weight: 400;
-//   font-size: 15px;
-//   line-height: 15px;
-//   text-transform: uppercase;
-//   color: #ffffff;
-//   margin-top: 10px;
-//   border-radius: 25px;
-//   padding: 15px 25px;
-//   background: rgba(255, 255, 255, 0.15);
-//   border: none;
-//   cursor: pointer;
-// }
->>>>>>> 27e1e7460632a1d3b2a5288d20590b783a41057e
