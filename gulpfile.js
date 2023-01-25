@@ -72,5 +72,5 @@ function watcher() {
          .pipe(clean({force: true}))
          .pipe(dest('dist'));
  }
-export const dev = series(styles, scripts, images, parallel(serve, watcher));
-export const build = series(clear, styles, scripts, images)
+export const dev = series(html, styles, scripts, images, parallel(serve, watcher));
+export const build = series(clear, html, styles, scripts, images)
