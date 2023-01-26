@@ -9,10 +9,6 @@
   color: $main-color-purple-dark;
 
   padding-top: 130px;
-  // @media (max-width: 768px) {
-  //   font-size: 42px;
-  //   line-height: 42px;
-  // }
 }
 .revolutionary-editor__info {
   font-weight: 400;
@@ -32,8 +28,27 @@
 .revolutionary-editor__item {
   display: flex;
   align-items: center;
+  border-radius: 3px;
+  border: 1px solid #d9d9d9;
+}
+.revolutionary-editor__item-link {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 20px;
+  background-color: #f4f4f4;
+  padding: 3px 10px;
+  color: $main-color-dark;
 }
 .revolutionary-editor__item-link-svg {
   display: inline-block;
   vertical-align: middle;
+}
+.revolutionary-editor__item-score {
+  border-left: 1px solid #d9d9d9;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 20px;
+
+  padding: 3px 10px;
+  color: $main-color-dark;
 }

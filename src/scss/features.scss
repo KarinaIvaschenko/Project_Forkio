@@ -2,14 +2,14 @@
   background: url(./dist/img/features/background-features.png);
 }
 .features__container {
-  display: flex;
+  // display: flex;
 }
 .features__title {
   font-weight: 700;
   font-size: 48px;
   line-height: 50px;
   color: $main-color-purple-light;
-  order: 1;
+  // order: 1;
 
   &::before {
     content: "<";
@@ -19,18 +19,25 @@
   }
 }
 .features__list {
-  //   width: 47%;
+  padding-left: 0;
+  width: 540px;
+  // height: 110px;
 }
 .features__item {
+  display: flex;
+}
+.features__img-box {
+  width: 100px;
 }
 .features__item-img {
 }
 .features__item-box {
 }
 .features__item-box-title {
+  margin: 0;
 }
 .features__item-box-info {
 }
 .features__footer {
-  order: 2;
+  // order: 2;
 }
