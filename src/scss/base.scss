@@ -10,6 +10,10 @@ body{
   @media (max-width: 992px){
     max-width: 992px;
   }
+  @media (max-width: 480px) {
+    max-width: 480px;
+    min-width: 320px;
+  }
 }
 a{
   text-decoration: none;
