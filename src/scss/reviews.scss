@@ -27,7 +27,7 @@ color: $main-color-light;
   row-gap: 112px;
   column-gap: 93px;
   padding-left: 0;
-  margin: 0;
+  margin: 0 auto;
   @media (max-width: 992px){
     grid-template-columns: 1fr 1fr;
     row-gap: 65px;

@@ -5,8 +5,7 @@
   left: 0;
   top: 0;
   color: $main-color-purple-light;
-  padding-top: 30px;
-  padding-bottom: 30px;
+
   @media (max-width: 992px) {
     background-color: #27262A;
   }
@@ -17,6 +16,9 @@
   flex-wrap: wrap;
   align-items: center;
   position: relative;
+
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .logo {
@@ -79,42 +81,44 @@
     &--active{
       display: grid;
       position: absolute;
-      top: 117%;
-      width: 292px;
+      top: 100%;
+      margin-top: 0;
+      width: 100%;
       background: #333333;
       justify-content: stretch;
     }
   }
 }
-.navigation__item {
-  @media (max-width: 480px) {
-    padding-top: 29px;
-    padding-bottom: 21px;
-    padding-left: 35px;
-    position: relative;
-    &::before{
-      content: "";
-      width: 8px;
-      height: 53px;
-      background-color: #8D81AC;
-      position: absolute;
-      left: 2px;
-      bottom: 10px;
-    }
-  }
-}
-
 .navigation__link {
   color: $main-color-purple-light;
   font-weight: 700;
   font-size: 16px;
   line-height: 17px;
+  &:hover {
+    color: $main-color-light;
+  }
   @media (max-width: 992px) {
     line-height: 18px;
   }
-
-  &:hover {
+  @media (max-width: 480px) {
     color: $main-color-light;
+    display: flex;
+    padding-top: 29px;
+    padding-bottom: 21px;
+    padding-left: 35px;
+    position: relative;
+    &:focus,&:hover {
+      color: $main-color-purple-light;
+      &::before {
+        content: "";
+        width: 8px;
+        height: 53px;
+        background-color: #8D81AC;
+        position: absolute;
+        left: 2px;
+        bottom: 10px;
+      }
+    }
   }
 }
 
