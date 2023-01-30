@@ -7,14 +7,23 @@
   line-height: 54px;
   text-transform: uppercase;
   color: $main-color-purple-dark;
-
   padding-top: 130px;
+
+  @media (max-width: 480px) {
+    font-size: 26px;
+    line-height: 28px;
+    padding-top: 80px;
+  }
 }
 .revolutionary-editor__info {
   font-weight: 400;
   font-size: 21px;
   line-height: 32px;
   color: $main-color-dark;
+  @media (max-width: 480px) {
+    font-size: 14px;
+    line-height: 20px;
+  }
 }
 .revolutionary-editor__list {
   display: flex;

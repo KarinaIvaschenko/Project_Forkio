@@ -1,19 +1,26 @@
-.container {
-  width: 1200px;
-  margin: 0 auto;
-}
 .features {
   background: #f4f4f4;
+  @media (max-width: 992px) {
+    background: #fff;
+  }
 }
 .container_features {
   display: flex;
   padding-top: 100px;
-
   position: relative;
 
   // grid-template-areas:
   //   "items-list title"
   //   "items-list image";
+  @media (max-width: 992px) {
+    display: block;
+    padding-top: 50px;
+  }
+  @media (max-width: 480px) {
+    display: block;
+    padding-top: 50px;
+    text-align: center;
+  }
 }
 .features__title {
   font-weight: 700;
@@ -21,6 +28,7 @@
   line-height: 50px;
   color: #8d81ac;
   padding-left: 20px;
+  text-align: center;
   margin: 0;
   order: 1;
 
@@ -30,21 +38,42 @@
   &::after {
     content: ">";
   }
-  // display: none;
+  @media (max-width: 992px) {
+    order: 0;
+    margin-bottom: 50px;
+  }
+  @media (max-width: 480px) {
+    font-size: 42px;
+    line-height: 44px;
+    padding-left: 0;
+  }
 }
 .features__web-list {
   // display: flex;
   // flex-direction: column;
   // list-style: none;
   padding-left: 0;
-  gap: 35px;
   width: 540px;
   // grid-area: items-list;
   padding-bottom: 70px;
+  @media (max-width: 1170px) {
+    width: 440px;
+    padding-bottom: 500px;
+  }
+  @media (max-width: 992px) {
+    width: auto;
+    margin-left: 30px;
+  }
+  @media (max-width: 480px) {
+    margin: 0;
+  }
 }
 .features__web-item {
   display: flex;
   margin-bottom: 35px;
+  @media (max-width: 480px) {
+    display: block;
+  }
 }
 .features__web-img {
   // padding-right: 20px;
@@ -56,6 +85,9 @@
   line-height: 21px;
   color: #323232;
   margin: 0;
+  @media (max-width: 480px) {
+    margin-top: 25px;
+  }
 }
 
 .features__web-item-info {
@@ -67,12 +99,27 @@
 .features__img {
   position: absolute;
   top: 170px;
-  right: -45px;
+  left: 540px;
   // display: none;
   // grid-area: image;
+  @media (max-width: 1170px) {
+    left: 440px;
+  }
+  @media (max-width: 992px) {
+    position: absolute;
+    top: 650px;
+    left: 70px;
+  }
+  @media (max-width: 480px) {
+    top: 1143px;
+    left: 3px;
+  }
 }
 
 .test {
   width: 111px;
   margin-right: 10px;
+  @media (max-width: 480px) {
+    margin: 0 auto;
+  }
 }
