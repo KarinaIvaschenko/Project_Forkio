@@ -22,6 +22,10 @@
     font-size: 72px;
     line-height: 72px;
   }
+  @media (max-width: 480px) {
+    font-size: 48px;
+    line-height: 48px;
+  }
 }
 .intro__text {
   font-weight: 400;
@@ -33,6 +37,11 @@
   @media (max-width: 992px){
     font-size: 24px;
     line-height: 24px;
+  }
+  @media (max-width: 480px) {
+    font-size: 18px;
+    line-height: 24px;
+      text-transform: capitalize;
   }
 }
 
@@ -46,15 +55,16 @@
     font-size: 14px;
     line-height: 14px;
   }
+  @media (max-width: 480px) {
+    text-transform: uppercase;
+  }
 }
-
 .intro__order {
   position: absolute;
   top: 96%;
   left: 0;
   right: 0;
 }
-
 .intro__order-button {
   font-weight: 700;
   font-size: 21px;
@@ -68,12 +78,17 @@
   @media (max-width: 992px){
     line-height: 23px;
   }
+  @media (max-width: 480px) {
+    padding: 13px 29px;
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 13px;
+  }
   &:hover {
     color: $main-color-purple-light;
     background-color: $main-color-light;
   }
 }
-
 .intro__order-text {
   font-weight: 400;
   font-size: 14px;
