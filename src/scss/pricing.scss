@@ -16,9 +16,6 @@
   }
 }
 .pricing__list {
-  // display: flex;
-  // justify-content: center;
-  // align-items: center;
   padding-left: 0;
   gap: 15px;
   margin-top: 100px;
@@ -29,7 +26,9 @@
   align-items: center;
   justify-items: center;
 
-  @media (max-width: 768px) {
+  @media (max-width: 993px) {
+  }
+  @media (max-width: 992px) {
     grid-template-columns: 1fr 1fr;
   }
   @media (max-width: 480px) {
@@ -41,9 +40,6 @@
   background: #6f5761;
   width: 257px;
   height: 457px;
-  // @media (max-width: 768px) {
-  //   height: ;
-  // }
 }
 
 .pricing__item-title {
@@ -130,7 +126,4 @@
 .correct-licence {
   margin-left: 50px;
   margin-bottom: 100px;
-}
-
-.correct-link {
 }
