@@ -26,7 +26,7 @@
   align-items: center;
   justify-items: center;
 
-  @media (max-width: 992px) {
+  @media (max-width: 1125px) {
     grid-template-columns: 1fr 1fr;
   }
   @media (max-width: 600px) {
