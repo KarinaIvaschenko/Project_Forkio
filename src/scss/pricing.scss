@@ -20,12 +20,10 @@
   gap: 15px;
   margin-top: 100px;
   padding-bottom: 100px;
-
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   align-items: center;
   justify-items: center;
-
   @media (max-width: 1125px) {
     grid-template-columns: 1fr 1fr;
   }
@@ -39,7 +37,6 @@
   width: 257px;
   height: 457px;
 }
-
 .pricing__item-title {
   font-weight: 400;
   font-size: 24px;
@@ -66,9 +63,7 @@
   text-transform: uppercase;
   color: $main-color-light;
   padding-bottom: 70px;
-
   position: relative;
-
   &::before {
     content: "";
     width: 60px;
@@ -84,7 +79,6 @@
   font-size: 16px;
   line-height: 18px;
   color: $main-color-light;
-
   width: 210px;
   height: 44px;
   margin-left: 25px;
@@ -97,10 +91,8 @@
   text-transform: uppercase;
   color: $main-color-light;
   background: #7a6c7a;
-
   padding: 15px 37px;
   border-radius: 30px;
-
   margin-bottom: 10px;
 }
 .item-correct {

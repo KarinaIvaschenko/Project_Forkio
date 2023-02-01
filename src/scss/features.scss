@@ -3,10 +3,10 @@
   overflow: hidden;
   position: relative;
   @media (max-width: 992px) {
-    background: #fff;
+    background: $main-color-light;
   }
 }
-.container_features {
+.features__container {
   display: flex;
   justify-content: space-between;
   padding-top: 100px;
@@ -28,11 +28,10 @@
   font-weight: 700;
   font-size: 48px;
   line-height: 50px;
-  color: #8d81ac;
+  color: $main-color-purple-light;
   text-align: center;
   margin: 0;
   order: 1;
-
   &::before {
     content: "<";
   }
@@ -86,18 +85,17 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 21px;
-  color: #323232;
+  color: $main-color-dark;
   margin: 0;
   @media (max-width: 480px) {
     margin-top: 25px;
   }
 }
-
 .features__web-item-info {
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
-  color: #848e97;
+  color: $main-color-gray;
   width: 100%;
 }
 .features__img {
