@@ -22,21 +22,36 @@
 }
 .pricing__list {
   padding-left: 0;
-  //gap: 15px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   column-gap: 15px;
   align-items: center;
-  //justify-items: center;
   margin: 0;
   @media (max-width: 1065px) {
    column-gap: 10px;
   }
+  @media (max-width: 992px) {
+    grid-template-columns: max-content max-content;
+    column-gap: 25px;
+    row-gap: 30px;
+    justify-content: center;
+  }
+  @media (max-width: 576px) {
+    grid-template-columns: 1fr;
+    row-gap: 18px;
+    justify-items: center;
+  }
 }
 .pricing__item {
   background: #6f5761;
-  //width: 257px;
-  //height: 457px;
+  padding-bottom: 42px;
+  min-height: 457px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media (max-width: 992px) {
+    max-width: 257px;
+  }
 }
 .pricing__item-title {
   font-weight: 400;
@@ -48,14 +63,21 @@
   padding-top: 35px;
   padding-bottom: 35px;
   margin: 0;
+  width: 100%;
 }
 .pricing__item-price {
   font-weight: 700;
   font-size: 60px;
-  line-height: 90px;
+  line-height: 1;
   text-transform: uppercase;
   color: $main-color-light;
-  margin: 0;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  
+  @media (max-width: 480px){
+    font-size: 60px;
+    line-height: 62px;
+  }
 }
 .pricing__item-month {
   font-weight: 400;
@@ -63,9 +85,9 @@
   line-height: 16px;
   text-transform: uppercase;
   color: $main-color-light;
-  padding-bottom: 70px;
+  margin-bottom: 79px;
   position: relative;
-  margin: 0;
+  margin-top: 0;
   &::before {
     content: "";
     width: 60px;
@@ -81,11 +103,6 @@
   font-size: 16px;
   line-height: 18px;
   color: $main-color-light;
-  width: 210px;
-  height: 44px;
-  margin-left: 25px;
-  margin-bottom: 35px;
-
 }
 .pricing__item-link {
   font-weight: 400;
@@ -97,13 +114,16 @@
   padding: 15px 37px;
   border-radius: 30px;
   margin-bottom: 10px;
+  margin-top: auto;
 }
 .item-correct {
-  width: 299px;
-  height: 560px;
+  min-height: 560px;
   background: #463048;
   mix-blend-mode: normal;
   opacity: 0.84;
+  @media (max-width: 992px) {
+    max-width: 299px;
+  }
 }
 .correct-title {
   padding-top: 40px;
@@ -115,6 +135,6 @@
   margin-top: 15px;
 }
 .correct-licence {
-  margin-left: 50px;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
+  max-width: 70%;
 }

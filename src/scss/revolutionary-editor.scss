@@ -35,8 +35,13 @@
   color: $main-color-dark;
   margin-top: 0;
   margin-bottom: 13px;
+  max-width: 861px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
   @media (max-width: 992px){
     margin-bottom: 24px;
+    max-width: 689px;
   }
   @media (max-width: 480px) {
     font-size: 14px;
