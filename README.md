@@ -28,7 +28,7 @@
 1. Іващенко Карина:
 - створила репозиторій;
 - Зробила збірку для проекту;
-- Створила файли base, header, intro, reviews, style, vars, normalize, gitignore, README.md;
+- Створила файли base, header, intro, reviews, style, vars, mixin, normalize, gitignore, README.md;
 - Зверстала шапку сайту з верхнім меню (включаючи випадаюче меню при малій роздільній здатності екрана.);
 - Зверстала секцію ***People Are Talking About Fork***;
 2. Снєжкін Віталій:

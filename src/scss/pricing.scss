@@ -2,14 +2,19 @@
   background: url(../img/background-pricing.png) center/cover no-repeat;
   text-align: center;
   padding-top: 80px;
+  padding-bottom: 93px;
 }
 .pricing__title {
   font-weight: 700;
   font-size: 48px;
   line-height: 50px;
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 61px;
   color: $main-color-light;
-
+  @media (max-width: 992px){
+    font-size: 42px;
+    line-height: 44px;
+  }
   @media (max-width: 480px) {
     font-size: 26px;
     line-height: 28px;
@@ -17,25 +22,21 @@
 }
 .pricing__list {
   padding-left: 0;
-  gap: 15px;
-  margin-top: 100px;
-  padding-bottom: 100px;
+  //gap: 15px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 15px;
   align-items: center;
-  justify-items: center;
-  @media (max-width: 1125px) {
-    grid-template-columns: 1fr 1fr;
-  }
-  @media (max-width: 600px) {
-    grid-template-columns: 1fr;
-    margin-top: 30px;
+  //justify-items: center;
+  margin: 0;
+  @media (max-width: 1065px) {
+   column-gap: 10px;
   }
 }
 .pricing__item {
   background: #6f5761;
-  width: 257px;
-  height: 457px;
+  //width: 257px;
+  //height: 457px;
 }
 .pricing__item-title {
   font-weight: 400;
@@ -64,6 +65,7 @@
   color: $main-color-light;
   padding-bottom: 70px;
   position: relative;
+  margin: 0;
   &::before {
     content: "";
     width: 60px;
@@ -83,6 +85,7 @@
   height: 44px;
   margin-left: 25px;
   margin-bottom: 35px;
+
 }
 .pricing__item-link {
   font-weight: 400;
@@ -102,13 +105,11 @@
   mix-blend-mode: normal;
   opacity: 0.84;
 }
-
 .correct-title {
   padding-top: 40px;
   padding-bottom: 40px;
   background: #3f2c41;
 }
-
 .correct-price {
   font-size: 82px;
   margin-top: 15px;

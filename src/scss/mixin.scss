@@ -1,0 +1,6 @@
+@mixin fz($max-font, $min-font) {
+  font-size: calc(
+          #{$min-font}px + (#{$max-font} - #{$min-font}) * (100vw - 320px) /
+          (1920 - 320)
+  );
+}
